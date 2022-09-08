@@ -50,7 +50,7 @@ const ProfileDetails = () => {
 				userName,
 			});
 		setIsEditMod(!isEditMode);
-	}, [userName]);
+	}, [userName, isEditMode]);
 
 	return (
 		<div className="user-details">
