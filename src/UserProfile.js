@@ -4,7 +4,7 @@ import ProfileDetails from "./components/ProfileDetails";
 
 const UserProfile = () => {
     return (
-        <div>
+        <div className="user-profile">
             <ProfilePicture />
             <ProfileDetails />
         </div>

@@ -1,38 +1,101 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightgray;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 13vmin;
+  width: 13vmin;
+  border-radius: 50%;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.user-profile {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  height:200px;
+  width:500px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+.user-pic{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: linear-gradient(rgb(223	166	176)	, rgb(238	205	153	));
+  height: 200px;
+  width: 250px;
+  border-radius: 7px 0 0 7px;
+}
+.user-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 12px;
+}
+.user-name-content{
+  display: flex;
+  justify-content: space-between;
+}
+.user-name {
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.user-details-content{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 5px;
+}
+.profile-line {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.company-logo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.company-name {
+  font-size: 12px;
+  font-weight: 500;
+}
+.company-statement {
+  font-weight: 200;
+  font-size: 10px;
+}
+.save-button {
+  border: none;
+  background-color: #008CBA;
+  border-radius: 3px;
+  height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+@media all and (max-width: 600px) {
+  .user-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:300px;
+    width:250px;
+    background-color: #fff;
+    border-radius: 7px;
+  }
+  .user-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(223 166 176) , rgb(238 205 153 ));
+    height: 100px;
+    width: 250px;
+    border-radius: 7px 7px 0 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
