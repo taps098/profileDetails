@@ -61,30 +61,30 @@ const ProfileDetails = () => {
                     <div>
                         {
                             isEditMode ? <button data-testid='save-button' className="save-button" onClick={handleSave}>Save</button>
-                                : <img data-testid='edit-button' src={pencil} alt='img' onClick={handleEdit} class="bi bi-pencil" />
+                                : <img data-testid='edit-button' src={pencil} alt='img' onClick={handleEdit} />
                         }
                     </div>
                 </div>
                 <div className="user-details-content">
-                    <img src={envelope} alt='img' className="bi bi-envelope" />
+                    <img src={envelope} alt='img' />
 
                     <div className="profile-line">{profileDetails.mailId}</div>
                 </div>
                 <div className="user-details-content">
-                    <div><img src={filePerson} alt='img' class="bi bi-file-person" /></div>
+                    <div><img src={filePerson} alt='img' /></div>
                     <div className="profile-line">{profileDetails.address}</div>
                 </div>
                 <div className="user-details-content">
-                    <div><img src={telephone} alt='img' class="bi bi-file-person" /></div>
+                    <div><img src={telephone} alt='img' /></div>
                     <div className="profile-line">{profileDetails.phoneNumber}</div>
                 </div>
                 <div className="user-details-content">
-                    <div><img src={globe} alt='img' class="bi bi-file-person" /></div>
+                    <div><img src={globe} alt='img' /></div>
                     <div className="profile-line">{profileDetails.org}</div>
                 </div>
             </div>
             <div className="company-logo">
-                <div ><img src={bank} alt='img' class="bi bi-file-person" /></div>
+                <div ><img src={bank} alt='img' /></div>
                 <div className="profile-line">
                     <div className="company-name"> McKenzie LLC</div>
                     <div className="company-statment">Quality focused value-added synergy</div>
