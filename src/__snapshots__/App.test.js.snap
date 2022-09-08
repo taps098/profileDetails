@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the app without fail 1`] = `
+<div
+  class="App"
+  data-testid="app"
+>
+  <div
+    class="user-profile"
+  >
+    <div
+      class="user-pic"
+    >
+      <img
+        alt="logo"
+        class="App-logo"
+        src="userImage.jpeg"
+      />
+    </div>
+    <div
+      class="user-details"
+    >
+      <div
+        class="user-profileDetails"
+      >
+        <div
+          class="user-name-content"
+        >
+          <div
+            class="user-name"
+          >
+            <div
+              data-testid="nameField"
+            >
+              Lois Zemlak
+            </div>
+          </div>
+          <div>
+            <img
+              alt="img"
+              class="bi bi-pencil"
+              data-testid="edit-button"
+              src="pencil.svg"
+            />
+          </div>
+        </div>
+        <div
+          class="user-details-content"
+        >
+          <img
+            alt="img"
+            class="bi bi-envelope"
+            src="envelope.svg"
+          />
+          <div
+            class="profile-line"
+          >
+            maida.becker98.gmail.com
+          </div>
+        </div>
+        <div
+          class="user-details-content"
+        >
+          <div>
+            <img
+              alt="img"
+              class="bi bi-file-person"
+              src="file-person.svg"
+            />
+          </div>
+          <div
+            class="profile-line"
+          >
+            Clemin Plain st, Apt462, North Connertown, 99373
+          </div>
+        </div>
+        <div
+          class="user-details-content"
+        >
+          <div>
+            <img
+              alt="img"
+              class="bi bi-file-person"
+              src="telephone.svg"
+            />
+          </div>
+          <div
+            class="profile-line"
+          >
+            (293)4148005
+          </div>
+        </div>
+        <div
+          class="user-details-content"
+        >
+          <div>
+            <img
+              alt="img"
+              class="bi bi-file-person"
+              src="globe.svg"
+            />
+          </div>
+          <div
+            class="profile-line"
+          >
+            marianne.org
+          </div>
+        </div>
+      </div>
+      <div
+        class="company-logo"
+      >
+        <div>
+          <img
+            alt="img"
+            class="bi bi-file-person"
+            src="bank2.svg"
+          />
+        </div>
+        <div
+          class="profile-line"
+        >
+          <div
+            class="company-name"
+          >
+             McKenzie LLC
+          </div>
+          <div
+            class="company-statment"
+          >
+            Quality focused value-added synergy
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
