@@ -11,7 +11,7 @@ import userImage from './extra/userImage.jpeg';
 const UserProfile = () => {
     return (
         <div className="user-profile">
-            <ProfilePicture userImage={userImage}/>
+            <ProfilePicture userImage={userImage} />
             <ProfileDetails />
         </div>
     );
