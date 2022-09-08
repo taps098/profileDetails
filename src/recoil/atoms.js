@@ -1,5 +1,8 @@
 import { atom } from 'recoil';
 
+/**
+ * initial value of the recoil state
+ */
 export const userProfileDetails = atom({
     key: 'userProfileDetails',
     default: {

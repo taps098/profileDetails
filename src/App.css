@@ -74,8 +74,16 @@
 .save-button {
   border: none;
   background-color: #008CBA;
+  box-shadow: 1px 1px 3px #888888;
   border-radius: 3px;
   height: 20px;
+}
+.nameInputStyle {
+  border: none;
+  box-shadow: 1px 1px 3px #888888;
+  border-radius: 3px;
+  height: 20px;
+  width: 150px;
 }
 
 @media all and (max-width: 600px) {

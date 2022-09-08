@@ -54,7 +54,7 @@ const handleSave = () => {
                     <div className="user-name">
                         {
                         edit ? 
-                        <input data-testid='nameInput' value={userName} onChange={handleNameChange}/>
+                        <input className="nameInputStyle" data-testid='nameInput' value={userName} onChange={handleNameChange}/>
                         :<div data-testid='nameField'>{profileDetails.userName}</div>
                         }
                     </div>
