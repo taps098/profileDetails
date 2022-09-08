@@ -1,6 +1,8 @@
 import React from "react";
 import ProfilePicture from "./components/ProfilePicture";
 import ProfileDetails from "./components/ProfileDetails";
+import userImage from './extra/userImage.jpeg';
+
 
 /**
  * Function to render the user profile.
@@ -9,7 +11,7 @@ import ProfileDetails from "./components/ProfileDetails";
 const UserProfile = () => {
     return (
         <div className="user-profile">
-            <ProfilePicture />
+            <ProfilePicture userImage={userImage}/>
             <ProfileDetails />
         </div>
     );

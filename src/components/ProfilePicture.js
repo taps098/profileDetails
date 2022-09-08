@@ -1,12 +1,10 @@
 import React from "react";
-import userImage from '../extra/userImage.jpeg';
-
 
 /**
  * Function to render the profile picture.
  * @returns ProfilePicture
  */
-const ProfilePicture = () => {
+const ProfilePicture = ({userImage}) => {
     return (
         <div className="user-pic">
             <img src={userImage} className="App-logo" alt="logo" />
